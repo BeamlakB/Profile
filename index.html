@@ -69,6 +69,17 @@
   <script>
     AOS.init({ offset: 0 });
   </script>
+  <!-- drop downn menu functions -->
+  <script>
+      function hamburg(){
+          const navbar = document.querySelector(".dropdown")
+          navbar.style.transform = "translateY(0px)"
+      }
+      function cancel(){
+          const navbar = document.querySelector(".dropdown")
+          navbar.style.transform = "translateY(-500px)"
+      }
+  </script> 
 
   <!-- Fetch project section -->
   <script>
@@ -80,8 +91,8 @@
         return response.text();
       })
       .then(data => {
-        document.getElementById('project-container').innerHTML = data;
-        AOS.refresh(); // trigger animations on injected elements
+               AOS.refresh(); // trigger animations on injected elements
+       document.getElementById('project-container').innerHTML = data;
       })
       .catch(error => {
         console.error('Error loading projects:', error);
