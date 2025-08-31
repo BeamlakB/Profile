@@ -1,0 +1,26 @@
+.contact-main .section-title {
+  background-color: rgb(32,26,27);
+  height: 100%;
+  width: 100%;
+  font-size: 48px;
+  font-family: 'Poppins', sans-serif;
+  color: #ba7474;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+.contact-main address a{
+  font-family: 'Poppins', sans-serif;
+  color: #ba7474;
+  text-align: center;
+  margin-bottom: 0rem; 
+}
+#contact-container{
+  background-color: rgb(32,26,27);
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #ba7474;
+  text-align: center;
+  margin-bottom: 0rem;
+
+}
