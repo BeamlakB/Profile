@@ -1,3 +1,5 @@
+//This fills in the additonal content provided in the exprirnce when the object is expanded
+// I also attachs any pdfs or links realted to the experince 
 function initTimelineModals() {
   const modalsData = [
     {
@@ -39,7 +41,8 @@ function initTimelineModals() {
     
   ];
 
-   const modal = document.getElementById("timeline-modal");
+  
+  const modal = document.getElementById("timeline-modal");
   const modalTitle = document.getElementById("modal-title");
   const modalText = document.getElementById("modal-text");
   const modalLinks = document.getElementById("modal-links");
